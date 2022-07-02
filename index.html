@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosEX.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+        <h2>Add A New Item:</h2>
+    </header>
+
+    <div class="content">
+        <div class="inputs">
+            <form action="" class="main_form">
+                <label for="name">Name:</label>
+                <input type="text" class="name">
+
+                <label for="date">Date:</label>
+                <input type="date" class="date" >
+
+                <label for="amount">Amount:</label>
+                <input type="number" class="amount">
+
+                <input type="submit" value="Add Expense">
+            </form>
+        </div>
+        <hr>
+
+
+        <div class="values">
+            <table class="tablasRe" border="4">
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Amount</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="expense.js"></script>
+</body>
+</html>
