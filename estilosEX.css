@@ -1,0 +1,14 @@
+.content .inputs{
+    margin: auto;
+    width: 100%;
+}
+
+.tablasRe{
+    border: 2px solid;
+    margin: auto;
+    width: 60%;
+}
+
+.tablasRe>*{
+    border: 2px solid;
+}
